@@ -1,14 +1,43 @@
+.header {
+    background-color:aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
 body {
     text-align: center;
     background-color: plum;
 }
 
+.leftcolumn{
+    float: left;
+    width: 70%;
+}
+
+.rightcolumn{
+    float: right;
+    width: 29%;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 div {
-    width: 80%;
-    max-width: 6000px;
+    width: 50%;
+    max-width: 1100px;
     margin: 0 auto;
-    box-shadow: 0 4px 8px #888;
-    border-radius: 8px;
+    box-shadow: 0 0px 0px #888;
+    border-radius: 5px;
     overflow: hidden;
     background-color: pink;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: aliceblue;
+    margin-top: 20px;
 }
