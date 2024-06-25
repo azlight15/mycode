@@ -10,4 +10,5 @@
     <a href="https://fanqiang-c9l.pages.dev/">翻墙网站</a><hr />
     <h2>2024/06/25</h2>
     <p>新增网页登录、注册界面模板</p>
+    <p>（用ChatGPT复制过来的）</p>
 </html>
