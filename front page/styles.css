@@ -28,6 +28,16 @@ body {
     color: black;
 }
 
+.leftcolumn{
+    float: left;
+    width: 70%;
+}
+
+.rightcolumn{
+    float: right;
+    width: 29%;
+}
+
 .card {
     background-color: aliceblue;
     padding: 20px;
