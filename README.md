@@ -9,6 +9,10 @@
     <a href="https://azlight.serv00.com/">首页</a>
     <a href="https://azlight.serv00.com/ero">情色网站</a>
     <a href="https://azlight.serv00.com/fanqiang">翻墙网站</a><hr />
+    <p>备用网站</p>
+    <a href="https://frontpage-4gl.pages.dev/">首页</a>
+    <a href="https://fanqiang-c9l.pages.dev/">翻墙网站</a>
+    <a href="https://r18-ees.pages.dev/">情色网站</a><hr />
     <h2>2024/06/30</h2>
     <p>cloudflare部署已经弄好了，对里面的内容做了微调</p>
     <p>以下是clouflare部署网站</p>
