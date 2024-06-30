@@ -8,7 +8,7 @@
     <p>以下是我的制作的网页</p>
     <a href="https://azlight.serv00.com/">首页</a>
     <a href="https://azlight.serv00.com/ero">情色网站</a>
-    <a href="https://azlight.serv00.com/fanqiang">翻墙网站</a><hr />
+    <a href="https://azlight.serv00.com/fanqiang">翻墙网站</a>
     <p>备用网站</p>
     <a href="https://frontpage-4gl.pages.dev/">首页</a>
     <a href="https://fanqiang-c9l.pages.dev/">翻墙网站</a>
