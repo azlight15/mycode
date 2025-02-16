@@ -24,3 +24,23 @@ body {
     padding: 20px;
     margin-top: 20px;
 }
+
+/*
+div {
+    width: 50%;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-shadow: 0 0px 0px #888;
+    border-radius: 0px;
+    overflow: hidden;
+    background-color: white;
+    }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  }
+这是备用css代码的区域
+ */
