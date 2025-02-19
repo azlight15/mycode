@@ -1,0 +1,26 @@
+.header {
+    background-color:aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    text-align: hidden;
+    background-color: plum;
+}
+
+.leftcolumn{
+    float: left;
+    width: 70%;
+}
+
+.rightcolumn{
+    float: right;
+    width: 29%;
+}
+
+.card {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+}
