@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html属性</title>
+</head>
+<body>
+    <!--超链接-->
+    <a href="https://www.baidu.com/">百度入口（超链接）1</a>
+    <br><!--换行标签-->
+    <!--target（定义链接打开方式）标签下面有四个选项
+    _blank：点开之后会在新标签页打开
+    _parent:在父窗口或父框架中打开
+    _self:默认值，表示在当前窗口打开
+    _tap:在顶层窗口或顶层框架中打开
+    -->
+    <a href="https://www.baidu.com/" target="_blank">百度入口（超链接）2</a>
+    <hr /><!--有分割线的换行标签-->
+
+    <!--图片链接-->
+    <!--src属性既可以用本地图片（前提是图片在该文件夹里面），也可以用图片链接-->
+    <img src="icons.jpg"><hr>
+    <!--alt属性是文字替换城图片-->
+    <img src="icon.jpg" alt="该图片无法显示"><hr>
+    <!--设置宽度和高度-->
+    <!--宽度是width，高度是height-->
+    <!--缺点是大小不会随比例缩放，如果要比例缩放的话，css会好些-->
+    <img src="Omagari-Hare-Blue-Archive-blue-archive-anime-games-anime-anime-girls-gray-hair-2304886-wallhere.com.jpg"
+    width="200" height="125">
+
+    <!--拓展：在表格里添加边框，数字越大边框越粗-->
+    <table border="1">
+        <tr>
+            <th>列标题1</th>
+            <th>列标题2</th>
+            <th>列标题3</th>
+        </tr>
+        <tr>
+            <td>中1</td>
+            <td>中2</td>
+            <td>中3</td>
+        </tr>
+        <tr>
+            <td>中11</td>
+            <td>中12</td>
+            <td>中13</td>
+        </tr>
+        <tr>
+            <td>中21</td>
+            <td>中22</td>
+            <td>中23</td>
+        </tr>
+        <tr>
+            <td>中31</td>
+            <td>中32</td>
+            <td>中33</td>
+        </tr>
+    </table>
+</body>
+</html>
