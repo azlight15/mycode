@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html表单</title>
-</head>
-<body>
-    <!--表单标签form,form是表单的容器-->
-    <form>
-        <!--最常见的标签是input,里面有几十种属性，但最常用的有type属性，但是yupe里也有十几个属性值-->
-        <!--没填plaseholder属性的话，它只显示框框，里面可以填一些文字。-->
-        <!--填了plaseholder的话，框框里会多出来一些文字，文字就是在这个属性里面填的文字，文字呈灰色-->
-        <input type="text" placeholder="请输入文本">
-        <!--value的话，跟plaseholder有差别-->
-        <!--value是规定input的值，下面代码是自动填写了属性值里的文字，可以删除-->
-        <input type="text" value="请输入文本"><hr />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>html表单</title>
+    </head>
+    <body>
+        <!--表单标签form,form是表单的容器-->
+        <form>
+            <!--最常见的标签是input,里面有几十种属性，但最常用的有type属性，但是yupe里也有十几个属性值-->
+            <!--没填plaseholder属性的话，它只显示框框，里面可以填一些文字。-->
+            <!--填了plaseholder的话，框框里会多出来一些文字，文字就是在这个属性里面填的文字，文字呈灰色-->
+            <input type="text" placeholder="请输入文本">
+            <!--value的话，跟plaseholder有差别-->
+            <!--value是规定input的值，下面代码是自动填写了属性值里的文字，可以删除-->
+            <input type="text" value="请输入文本"><hr />
 
-        <!--在form里，有专门的文本标签，叫label标签，作用跟span差不多，但label只用于form里-->
-        <!--所以，你可能会看到这样的效果。试试看-->
-        <label>用户名：</label>
-        <input type="text" placeholder="请输入用户名"><br /><br />
-        <label>密码：</label>
-        <input type="text" placeholder="请输入密码"><hr />
+            <!--在form里，有专门的文本标签，叫label标签，作用跟span差不多，但label只用于form里-->
+            <!--所以，你可能会看到这样的效果。试试看-->
+            <label>用户名：</label>
+            <input type="text" placeholder="请输入用户名"><br /><br />
+            <label>密码：</label>
+            <input type="text" placeholder="请输入密码"><hr />
 
-        <!--进阶一点，就是-->
-        <label for="username">用户名：</label>
-        <input type="text" id="username" placeholder="请输入用户名"><br /><br />
-        <label for="pwd">密码：</label>
-        <input type="text" id="pwd" placeholder="请输入密码"><hr />
-        <!--for属性里面的值是id的值，通常链接input-->
+            <!--进阶一点，就是-->
+            <label for="username">用户名：</label>
+            <input type="text" id="username" placeholder="请输入用户名"><br /><br />
+            <label for="pwd">密码：</label>
+            <input type="text" id="pwd" placeholder="请输入密码"><hr />
+            <!--for属性里面的值是id的值，通常链接input-->
 
-        <!--单选框用radio标签，比如性别-->
-        <label>性别：</label>
-        <input type="radio" name="gender">男
-        <input type="radio" name="gender">女
-        <input type="radio" name="gender">其他
-        <hr />
+            <!--单选框用radio标签，比如性别-->
+            <label>性别：</label>
+            <input type="radio" name="gender">男
+            <input type="radio" name="gender">女
+            <input type="radio" name="gender">其他
+            <hr />
 
-        <!--多选框用checkbox标签，比如爱好-->
-        <label>爱好：</label>
-        <input type="checkbox" name="hobby">唱歌
-        <input type="checkbox" name="hobby">跳舞
-        <input type="checkbox" name="hobby">rap
-        <input type="checkbox" name="hobby">篮球
-        <hr />
+            <!--多选框用checkbox标签，比如爱好-->
+            <label>爱好：</label>
+            <input type="checkbox" name="hobby">唱歌
+            <input type="checkbox" name="hobby">跳舞
+            <input type="checkbox" name="hobby">rap
+            <input type="checkbox" name="hobby">篮球
+            <hr />
 
-        <!--提交按钮-->
-        <input type="submit">
-        <br /><br />
-        <!--可以发现按钮里的文字是提交，如果你想文字不是提交的话，在后面加上value-->
-        <input type="submit" value="上传">
-    </form>
+            <!--提交按钮-->
+            <input type="submit">
+            <br /><br />
+            <!--可以发现按钮里的文字是提交，如果你想文字不是提交的话，在后面加上value-->
+            <input type="submit" value="上传">
+        </form>
 
-    <!--action属性是点击提交按钮后，向何处发送我们填写的数据，值里面写服务器给我们的api地址，如果没有，填#-->
-    <form action=""></form>
-</body>
+        <!--action属性是点击提交按钮后，向何处发送我们填写的数据，值里面写服务器给我们的api地址，如果没有，填#-->
+        <form action=""></form>
+    </body>
 </html>

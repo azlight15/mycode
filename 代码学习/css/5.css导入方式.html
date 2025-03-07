@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="5.css导入项目.css">
+        <title>5.css导入方式</title>
+        <!---->
+        <style>
+            h2{
+                color: blue;
+                /*改文字的大小是font-size，px是像素，像素越大，字越大*/
+                font-size:20px;
+            }
+        </style>
+    </head>
+    <body>
+    <!--第一种导入方式是内联样式，就是直接在标签里加属性进去-->
+    <h1 style="color: red">这是一个内联样式文本</h1>
+    <!--第二种是内部样式表，即在style标签里写css代码-->
+    <h2>这是一个内部样式表文本</h2>
+    <!--第三种是外部样式表，在同文件夹下创建一个css文件，并链接css文件，方式见第6行代码-->
+    <h3>这是一个外部样式表文本</h3>
+
+    <!--然后你就会发现，外部样式文本没有变，那是因为导入方式有优先级的-->
+    <!--优先级：内联样式 > 内部样式表 > 外部样式表-->
+    <!--不信你去把上面标签全换成<p>试试-->
+    </body>
+</html>
